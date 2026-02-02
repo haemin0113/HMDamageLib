@@ -1,0 +1,13 @@
+name: HMDamageLib
+version: 1.0.0
+main: org.haemin.hMDamageLib.HMDamageLib
+api-version: '1.20'
+author: haemin
+commands:
+  hmdamagelib:
+    description: HMDamageLib debug
+    usage: /<command> stats [player]
+    permission: hmdamagelib.admin
+permissions:
+  hmdamagelib.admin:
+    default: op
